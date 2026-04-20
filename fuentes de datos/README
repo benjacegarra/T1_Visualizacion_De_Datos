@@ -1,6 +1,46 @@
 # Fuentes de Datos
 
-## Spotify & YouTube Dataset (utilizado para la visualización 2)
+## Dataset combinado: musica.csv
+
+**Origen:** Combinación de los siguientes datasets(explicados más abajo):
+- [Top Hits Spotify 2000–2019 (Kaggle)](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019?resource=download)
+- [Spotify YouTube Data (Kaggle)](https://www.kaggle.com/datasets/rohitgrewal/spotify-youtube-data/data)
+
+**Descripción:** Dataset resultante de combinar ambas fuentes, que integra información de canciones populares en Spotify junto con sus métricas en YouTube. 
+Incluye características sonoras analizadas por Spotify, datos de popularidad en ambas plataformas.
+
+## Descripción de los datos:
+
+| Columna | Descripción |
+|---|---|
+| artist | Artista o banda |
+| song | Nombre de la canción |
+| Album | Nombre del álbum |
+| Album_type | Tipo de álbum (album, single, compilation) |
+| Danceability | Qué tan apta es la canción para bailar (0 a 1) |
+| Energy | Qué tan energética o intensa es la canción (0 a 1) |
+| Key | Tonalidad musical de la canción (0 a 11) |
+| Loudness | Volumen promedio de la canción en decibeles (dB) |
+| Speechiness | Presencia de palabras habladas en la pista |
+| Acousticness | Qué tan acústica es la canción (0 a 1) |
+| Instrumentalness | Probabilidad de que la canción no tenga vocales (0 a 1) |
+| Liveness | Indica si la canción fue grabada en vivo (0 a 1) |
+| Valence | Qué tan positiva o alegre suena la canción (0 a 1) |
+| Tempo | Velocidad de la canción en BPM |
+| Duration_ms | Duración de la canción en milisegundos |
+| Title | Título del video en YouTube |
+| Channel | Canal de YouTube donde está el video |
+| Views | Total de vistas en YouTube |
+| Likes | Total de likes en YouTube |
+| Comments | Total de comentarios en YouTube |
+| Stream | Total de reproducciones en Spotify |
+| genre | Género musical de la canción |
+| year | Año de lanzamiento |
+
+
+================================================================================================================================================================================================
+
+## Spotify & YouTube Dataset
 
 **Origen:** [Kaggle - Spotify YouTube Data](https://www.kaggle.com/datasets/rohitgrewal/spotify-youtube-data/data)
 
@@ -32,3 +72,37 @@ Incluyendo características de las canciones analizadas por Spotify.
 | Tempo | Velocidad de la canción en BPM |
 | Duration_ms | Duración de la canción en milisegundos |
 | Year | Año de lanzamiento |
+
+================================================================================================================================================================================================
+
+## Top Hits Spotify 2000-2019
+
+**Origen:** [Kaggle - Top Hits Spotify from 2000-2019](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019?resource=download)
+
+**Descripción:**
+Este dataset cuenta con las canciones más populares de Spotify entre los años 2000 y 2019.
+Incluye características de las canciones analizadas por Spotify y el género musical de cada canción.
+
+## Columnas
+
+| Columna | Descripción |
+|---|---|
+| song | Nombre de la canción |
+| artist | Artista o banda |
+| year | Año de lanzamiento |
+| genre | Género musical de la canción |
+| popularity | Qué tan popular es la canción (mayor valor = más popular) |
+| danceability | Qué tan apta es la canción para bailar (0 a 1) |
+| energy | Qué tan intensa o energética es la canción (0 a 1) |
+| key | Tonalidad musical (0 = C, 1 = C#/D♭, 2 = D, ... -1 = no detectada) |
+| loudness | Volumen promedio de la canción en decibeles (dB), entre -60 y 0 |
+| mode | Modalidad de la canción (1 = mayor, 0 = menor) |
+| speechiness | Presencia de palabras habladas (sobre 0.66 = casi solo voz, bajo 0.33 = música) |
+| acousticness | Qué tan acústica es la canción (0 a 1) |
+| instrumentalness | Probabilidad de que la canción no tenga vocales (sobre 0.5 = instrumental) |
+| liveness | Probabilidad de que la canción haya sido grabada en vivo (sobre 0.8 = muy probable) |
+| valence | Qué tan positiva o alegre suena la canción (0 a 1) |
+| tempo | Velocidad de la canción en BPM |
+| duration_ms | Duración de la canción en milisegundos |
+
+================================================================================================================================================================================================

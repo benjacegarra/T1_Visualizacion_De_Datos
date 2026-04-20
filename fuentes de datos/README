@@ -1,0 +1,34 @@
+# Fuentes de Datos
+
+## Spotify & YouTube Dataset (utilizado para la visualización 2)
+
+**Origen:** [Kaggle - Spotify YouTube Data](https://www.kaggle.com/datasets/rohitgrewal/spotify-youtube-data/data)
+
+**Descripción:**
+Dataset que combina información de Spotify y YouTube para un conjunto de canciones.
+Incluye métricas de reproducciones y características de audio analizadas por Spotify.
+
+##Descripción de los datos:
+
+| Columna | Descripción |
+|---|---|
+| Track | Nombre de la canción |
+| Artist | Artista o banda |
+| Album | Nombre del álbum |
+| Album_type | Tipo de álbum (album, single, compilation) |
+| Stream | Total de reproducciones en Spotify |
+| Views | Total de vistas en YouTube |
+| Likes | Total de likes en YouTube |
+| Comments | Total de comentarios en YouTube |
+| Danceability | Qué tan apta es la canción para bailar (0 a 1) |
+| Energy | Qué tan energética o intensa es la canción (0 a 1) |
+| Key | Tonalidad musical de la canción (0 a 11) |
+| Loudness | Volumen promedio de la canción en decibeles (dB) |
+| Speechiness | Presencia de palabras habladas en la pista |
+| Acousticness | Qué tan acústica es la canción (0 a 1) |
+| Instrumentalness | Probabilidad de que la canción no tenga vocales (0 a 1) |
+| Liveness | Indica si la canción fue grabada en vivo (0 a 1) |
+| Valence | Qué tan positiva o alegre suena la canción (0 a 1) |
+| Tempo | Velocidad de la canción en BPM |
+| Duration_ms | Duración de la canción en milisegundos |
+| Year | Año de lanzamiento |

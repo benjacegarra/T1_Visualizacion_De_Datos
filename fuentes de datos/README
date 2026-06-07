@@ -1,5 +1,10 @@
 # Fuentes de Datos
 
+
+=============================================================================================================================================================================================================
+TAREA 1:
+
+
 ## Dataset combinado: musica.csv
 
 **Origen:** Combinación de los siguientes datasets(explicados más abajo):
@@ -105,4 +110,58 @@ Incluye características de las canciones analizadas por Spotify y el género mu
 | tempo | Velocidad de la canción en BPM |
 | duration_ms | Duración de la canción en milisegundos |
 
+
+
 ================================================================================================================================================================================================
+Tarea 3:
+
+## Top Spotify Songs in 73 Countries (Visualizacion 1, Gabriel Lira)
+
+**Origen:** [Kaggle - Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
+
+**Descripción:**
+Este dataset contiene las canciones más populares de Spotify actualizadas diariamente en 73 países. Permite analizar tendencias musicales globales y comparar preferencias entre regiones del mundo.
+
+| Columna | Descripción |
+|---|---|
+| `spotify_id` | Identificador único de la canción en Spotify |
+| `name` | Nombre de la canción |
+| `artists` | Artista o banda |
+| `daily_rank` | Posición en el ranking diario del país |
+| `daily_movement` | Cambio de posición respecto al día anterior |
+| `weekly_movement` | Cambio de posición respecto a la semana anterior |
+| `country` | Código del país (ISO 3166-1 alpha-2) |
+| `snapshot_date` | Fecha en que se registró el dato |
+| `popularity` | Índice de popularidad en Spotify (0 a 100) |
+| `is_explicit` | Indica si la canción tiene contenido explícito |
+| `duration_ms` | Duración de la canción en milisegundos |
+| `album_name` | Nombre del álbum |
+| `album_release_date` | Fecha de lanzamiento del álbum |
+| `danceability` | Qué tan apta es la canción para bailar (0 a 1) |
+| `energy` | Qué tan energética o intensa es la canción (0 a 1) |
+| `key` | Tonalidad musical de la canción (0 a 11) |
+| `loudness` | Volumen promedio de la canción en decibeles (dB) |
+| `speechiness` | Presencia de palabras habladas en la pista (0 a 1) |
+| `acousticness` | Qué tan acústica es la canción (0 a 1) |
+| `instrumentalness` | Probabilidad de que la canción no tenga vocales (0 a 1) |
+| `liveness` | Indica si la canción fue grabada en vivo (0 a 1) |
+| `valence` | Qué tan positiva o alegre suena la canción (0 a 1) |
+| `tempo` | Velocidad de la canción en BPM |
+
+---
+
+## European and International Music Festivals 2024 (Visualizacion 2, Benjamin Cegarra)
+
+**Origen:** [Kaggle - European and International Music Festivals 2024](https://www.kaggle.com/datasets/gorororororo23/aereregre)
+
+**Descripción:**
+Este dataset contiene información sobre festivales de música realizados en Europa y otras ubicaciones internacionales durante 2024. Permite analizar la distribución geográfica de eventos musicales masivos, su impacto económico y los géneros predominantes por región.
+
+| Columna | Descripción |
+|---|---|
+| `Festival_Name` | Nombre oficial del festival |
+| `Location` | Ciudad y país donde se realiza el festival |
+| `Attendance_Numbers` | Número estimado de asistentes |
+| `Visitor_Demographics` | Rango etario e intereses del público asistente |
+| `Economic_Impact` | Impacto económico estimado del evento |
+| `Music_Genres` | Géneros musicales presentes en el festival |

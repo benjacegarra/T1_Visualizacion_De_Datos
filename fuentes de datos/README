@@ -148,14 +148,15 @@ Este dataset contiene las canciones más populares de Spotify actualizadas diari
 | `valence` | Qué tan positiva o alegre suena la canción (0 a 1) |
 | `tempo` | Velocidad de la canción en BPM |
 
----
+================================================================================================================================================================================================
 
 ## European and International Music Festivals 2024 (Visualizacion 2, Benjamin Cegarra)
 
 **Origen:** [Kaggle - European and International Music Festivals 2024](https://www.kaggle.com/datasets/gorororororo23/aereregre)
 
 **Descripción:**
-Este dataset contiene información sobre festivales de música realizados en Europa y otras ubicaciones internacionales durante 2024. Permite analizar la distribución geográfica de eventos musicales masivos, su impacto económico y los géneros predominantes por región.
+Este dataset contiene información sobre festivales de música realizados en Europa y otras ubicaciones internacionales durante 2024. Permite analizar la distribución geográfica de eventos musicales masivos, 
+su impacto económico y los géneros predominantes por región.
 
 | Columna | Descripción |
 |---|---|
